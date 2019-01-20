@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-animations';
+  toState = 'state1';
+
+  changeState(state: any) {
+    this.toState = state;
+  }
 }
