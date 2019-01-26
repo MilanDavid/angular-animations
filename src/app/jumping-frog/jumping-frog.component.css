@@ -1,0 +1,6 @@
+canvas {
+    background-image: url("../../assets/sitting-frog.png");
+    background-size: 100px 100px;
+    offset: 0;
+    position: absolute;
+}

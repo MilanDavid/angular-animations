@@ -7,13 +7,19 @@ import { AppComponent } from './app.component';
 import { AnimateComponent } from './animate/animate.component';
 import { TodosComponent } from './todos/todos.component';
 import { ZippyComponent } from './zippy/zippy.component';
+import { ButtonHoverComponent } from './button-hover/button-hover.component';
+import { PracticeComponent } from './practice/practice.component';
+import { JumpingFrogComponent } from './jumping-frog/jumping-frog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AnimateComponent,
     TodosComponent,
-    ZippyComponent
+    ZippyComponent,
+    ButtonHoverComponent,
+    PracticeComponent,
+    JumpingFrogComponent
   ],
   imports: [
     BrowserModule,
